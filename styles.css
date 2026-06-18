@@ -613,17 +613,6 @@ pre code { font-family: var(--font-mono); font-weight: 700; }
   gap: 20px;
 }
 
-.service-section,
-.advice-section,
-.toolkit-section,
-.deploy-section,
-.help-section,
-.blog-layout,
-.post-shell {
-  content-visibility: auto;
-  contain-intrinsic-size: 900px;
-}
-
 .service-card,
 .advice-card,
 .toolkit-card,
