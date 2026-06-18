@@ -1,0 +1,10 @@
+{
+  "name": "BugDoktor",
+  "short_name": "BugDoktor",
+  "description": "Tehnički savjeti za web, PC, hardware, software i pametnije digitalne odluke.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff4c7",
+  "theme_color": "#ffcb05",
+  "lang": "hr-HR"
+}

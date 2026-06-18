@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BugDoktor blog</title>
+    <link>https://bugdoktor.hr/blog.html</link>
+    <description>Besplatni tehnički savjeti za web, PC, hardware, software i sigurnost.</description>
+    <language>hr-HR</language>
+    <lastBuildDate>Wed, 17 Jun 2026 10:00:00 +0200</lastBuildDate>
+    <atom:link href="https://bugdoktor.hr/feed.xml" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Treba ti web stranica, ali ne znaš odakle krenuti?</title>
+      <link>https://bugdoktor.hr/blog/web-stranica-odakle-krenuti.html</link>
+      <guid>https://bugdoktor.hr/blog/web-stranica-odakle-krenuti.html</guid>
+      <pubDate>Wed, 17 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Što pripremiti prije izrade web stranice: cilj, sadržaj, domena, hosting, struktura i budžet.</description>
+    </item>
+
+    <item>
+      <title>Web shop nije samo košarica i lijepa naslovnica</title>
+      <link>https://bugdoktor.hr/blog/web-shop-nije-samo-kosarica.html</link>
+      <guid>https://bugdoktor.hr/blog/web-shop-nije-samo-kosarica.html</guid>
+      <pubDate>Wed, 17 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Što moraš znati prije pokretanja web shopa: proizvodi, naplata, dostava i održavanje.</description>
+    </item>
+
+    <item>
+      <title>Slaganje PC-a počinje pitanjem, ne grafičkom</title>
+      <link>https://bugdoktor.hr/blog/slaganje-pc-a-pocinje-pitanjem.html</link>
+      <guid>https://bugdoktor.hr/blog/slaganje-pc-a-pocinje-pitanjem.html</guid>
+      <pubDate>Wed, 17 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Kako planirati PC konfiguraciju prema stvarnoj namjeni, monitoru i budžetu.</description>
+    </item>
+
+    <item>
+      <title>Kako kupiti opremu bez plaćanja marketinga?</title>
+      <link>https://bugdoktor.hr/blog/kupnja-hardwarea-bez-marketinga.html</link>
+      <guid>https://bugdoktor.hr/blog/kupnja-hardwarea-bez-marketinga.html</guid>
+      <pubDate>Wed, 17 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Na što gledati kod laptopa, monitora, routera, periferije i komponenti.</description>
+    </item>
+
+    <item>
+      <title>Programi koji rješavaju posao, ne pune desktop</title>
+      <link>https://bugdoktor.hr/blog/software-koji-rjesava-posao.html</link>
+      <guid>https://bugdoktor.hr/blog/software-koji-rjesava-posao.html</guid>
+      <pubDate>Wed, 17 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Kako birati software koji štedi vrijeme, čuva podatke i ne stvara novi nered.</description>
+    </item>
+
+    <item>
+      <title>Ne klikaj link samo zato što ima logo</title>
+      <link>https://bugdoktor.hr/blog/ne-klikaj-link-samo-zato-sto-ima-logo.html</link>
+      <guid>https://bugdoktor.hr/blog/ne-klikaj-link-samo-zato-sto-ima-logo.html</guid>
+      <pubDate>Wed, 17 Jun 2026 10:00:00 +0200</pubDate>
+      <description>Brzi vodič za phishing, lozinke, 2FA, backup i sigurnije korištenje interneta.</description>
+    </item>
+  </channel>
+</rss>
