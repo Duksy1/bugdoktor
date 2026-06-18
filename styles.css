@@ -196,7 +196,6 @@ a { color: inherit; text-decoration: none; }
   grid-template-columns: 1.08fr .92fr;
   gap: 34px;
   align-items: center;
-  overflow-x: clip;
 }
 
 .hero-copy { position: relative; }
@@ -547,8 +546,9 @@ pre code { font-family: var(--font-mono); font-weight: 700; }
   background: var(--red);
   color: var(--white);
   max-width: 100vw;
-  overflow: clip;
-  contain: layout paint;
+  overflow-x: clip;
+  overflow-y: visible;
+  contain: layout;
   transform: rotate(-1deg);
 }
 
