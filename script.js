@@ -3,12 +3,6 @@ const mainNav = document.querySelector(".main-nav");
 const searchInput = document.querySelector("#searchInput");
 const adviceCards = document.querySelectorAll(".advice-card");
 const copyButtons = document.querySelectorAll(".copy-button");
-const tickerTrack = document.querySelector(".ticker-track");
-
-// Duplicate ticker content so the moving strip looks continuous.
-if (tickerTrack) {
-  tickerTrack.innerHTML += tickerTrack.innerHTML;
-}
 
 menuButton?.addEventListener("click", () => {
   const isOpen = mainNav.classList.toggle("open");

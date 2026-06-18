@@ -1,22 +1,19 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="hr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>BugDoktor — tehnički savjeti za web, PC i opremu</title>
-  <meta name="description" content="BugDoktor je tehnički medij za savjete o izradi web stranica, web shopova, slaganju PC-a, hardwareu, softwareu i svakodnevnim digitalnim odlukama." />
+  <title>BugDoktor — tehnički savjeti za web, aplikacije, PC i opremu</title>
+  <meta name="description" content="BugDoktor je tehnički medij za savjete o izradi web stranica, web shopova, mobilnih i web aplikacija, slaganju PC-a, hardwareu, softwareu i svakodnevnim digitalnim odlukama." />
   <meta name="theme-color" content="#ffcb05" />
   <link rel="canonical" href="https://bugdoktor.hr/" />
-  <link rel="alternate" type="application/rss+xml" title="BugDoktor blog" href="https://bugdoktor.hr/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="BugDoktor savjeti" href="https://bugdoktor.hr/feed.xml" />
   <link rel="manifest" href="site.webmanifest" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="BugDoktor — tehnički savjeti za web, PC i opremu" />
-  <meta property="og:description" content="Besplatni tehnički vodiči za web stranice, web shopove, PC konfiguracije, hardware, software i sigurnost." />
+  <meta property="og:title" content="BugDoktor — tehnički savjeti za web, aplikacije, PC i opremu" />
+  <meta property="og:description" content="Besplatni tehnički vodiči za web stranice, web shopove, mobilne i web aplikacije, PC konfiguracije, hardware, software i sigurnost." />
   <meta property="og:url" content="https://bugdoktor.hr/" />
   <meta name="twitter:card" content="summary" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,80..100,500..800&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -32,8 +29,7 @@
 
     <nav class="main-nav" aria-label="Glavna navigacija">
       <a href="#servis">Servis</a>
-      <a href="#savjeti">Savjeti</a>
-      <a href="blog.html">Blog</a>
+      <a href="blog.html">Savjeti</a>
       <a href="#alatnica">Alatnica</a>
       <a href="#preporuke">Preporuke</a>
     </nav>
@@ -45,15 +41,16 @@
     <section class="hero section-wrap">
       <div class="hero-copy">
         <div class="sticker sticker-red">Tehnička garaža</div>
-        <p class="eyebrow"><span></span> Savjeti za web, PC i digitalni alat</p>
+        <p class="eyebrow"><span></span> Savjeti za web, aplikacije, PC i digitalni alat</p>
         <h1>Tehnika bez magle.</h1>
-        <p class="lead">BugDoktor je medij za ljude koji trebaju jasan tehnički smjer: izrada web stranica i web shopova, slaganje PC-a, izbor hardwarea, korisni software i rješenja za svakodnevne digitalne zastoje.</p>
+        <p class="lead">BugDoktor je medij za ljude koji trebaju jasan tehnički smjer: izrada web stranica i web shopova, savjeti za mobilne i web aplikacije, slaganje PC-a, izbor hardwarea, korisni software i rješenja za svakodnevne digitalne zastoje.</p>
         <div class="hero-actions">
-          <a class="button primary" href="blog.html">Otvori blog</a>
+          <a class="button primary" href="blog.html">Otvori savjete</a>
           <a class="button secondary" href="#usluge">Trebam pomoć</a>
         </div>
         <div class="trust-row" aria-label="Glavne prednosti">
           <span>🔧 Web</span>
+          <span>📱 Aplikacije</span>
           <span>🧪 PC</span>
           <span>⚡ Hardware</span>
           <span>🧯 Software</span>
@@ -72,7 +69,7 @@
           <div class="wrench-badge">🔧</div>
         </div>
         <h2>Simptom: “Što mi zapravo treba?”</h2>
-        <p>Dijagnoza: web stranica, web shop, novi PC, bolji laptop, pravi program ili samo pametnija konfiguracija.</p>
+        <p>Dijagnoza: web stranica, web shop, mobilna aplikacija, web aplikacija, novi PC, bolji laptop, pravi program ili samo pametnija konfiguracija.</p>
         <div class="terminal-strip">
           <code>$ bugdoktor fix --panic=off</code>
           <button type="button" class="copy-button" data-copy="bugdoktor fix --panic=off">Kopiraj</button>
@@ -83,11 +80,19 @@
     <section class="ticker" aria-label="BugDoktor poruke">
       <div class="ticker-track">
         <span>Web bez panike</span>
+        <span>Aplikacija prije budžeta</span>
         <span>PC po potrebi</span>
         <span>Hardware bez hypea</span>
         <span>Software koji štedi vrijeme</span>
         <span>Web shop prije oglasa</span>
         <span>Savjet prije kupnje</span>
+        <span aria-hidden="true">Web bez panike</span>
+        <span aria-hidden="true">Aplikacija prije budžeta</span>
+        <span aria-hidden="true">PC po potrebi</span>
+        <span aria-hidden="true">Hardware bez hypea</span>
+        <span aria-hidden="true">Software koji štedi vrijeme</span>
+        <span aria-hidden="true">Web shop prije oglasa</span>
+        <span aria-hidden="true">Savjet prije kupnje</span>
       </div>
     </section>
 
@@ -104,7 +109,7 @@
         <article class="service-card rotate-left">
           <span class="step-number">01</span>
           <h3>Potreba</h3>
-          <p>Što zapravo želiš riješiti: web stranicu, web shop, spor PC, kupnju opreme, izbor aplikacije ili bolji workflow.</p>
+          <p>Što zapravo želiš riješiti: web stranicu, web shop, mobilnu aplikaciju, web aplikaciju, spor PC, kupnju opreme, izbor softwarea ili bolji workflow.</p>
         </article>
         <article class="service-card rotate-right">
           <span class="step-number">02</span>
@@ -123,14 +128,14 @@
       <div class="section-heading">
         <p class="section-kicker">Vodiči i savjeti</p>
         <h2>Tehničke odluke objašnjene normalnim jezikom.</h2>
-        <p>Pretraži temu ili izaberi karticu. Svaki članak može kasnije voditi na pravi blog post.</p>
+        <p>Pretraži temu ili izaberi karticu. Svaki savjet vodi na konkretniji smjer, opcije i pitanja koja vrijedi riješiti prije odluke.</p>
       </div>
 
       <div class="search-panel">
         <label for="searchInput">Pretraži teme</label>
         <div class="search-box">
           <span>⌕</span>
-          <input id="searchInput" type="search" placeholder="npr. web shop, PC, laptop, software..." autocomplete="off" />
+          <input id="searchInput" type="search" placeholder="npr. web shop, aplikacija, PC, laptop, software..." autocomplete="off" />
         </div>
       </div>
 
@@ -147,6 +152,13 @@
           <h3>Web shop nije samo košarica i lijepa naslovnica.</h3>
           <p>Prije platforme razmisli o proizvodima, naplati, dostavi, računima, održavanju i tome tko će unositi sadržaj.</p>
           <a href="blog/web-shop-nije-samo-kosarica.html">Pročitaj recept <span>→</span></a>
+        </article>
+
+        <article class="advice-card" data-keywords="mobilna aplikacija web aplikacija app ios android pwa saas rezervacije crm portal">
+          <div class="card-top"><span>📱</span><small>Aplikacije</small></div>
+          <h3>Treba li ti mobilna aplikacija, web aplikacija ili nešto jednostavnije?</h3>
+          <p>Prije razvoja vrijedi odlučiti što korisnik radi, treba li login, plaćanje, obavijesti, admin panel, integracije i održavanje.</p>
+          <a href="#kontakt">Pošalji pitanje <span>→</span></a>
         </article>
 
         <article class="advice-card" data-keywords="pc konfiguracija slaganje gaming ured procesor graficka ram ssd napajanje">
@@ -194,11 +206,11 @@
 
       <div class="toolkit-card command-card">
         <span class="label-chip">Brzi brief</span>
-        <pre><code>tema: web / shop / PC / software
+        <pre><code>tema: web / shop / aplikacija / PC / software
 budžet: okvirno
 cilj: što mora raditi
 # hype=false</code></pre>
-        <button class="copy-button" type="button" data-copy="tema: web / shop / PC / software\nbudžet: okvirno\ncilj: što mora raditi">Kopiraj brief</button>
+        <button class="copy-button" type="button" data-copy="tema: web / shop / aplikacija / PC / software\nbudžet: okvirno\ncilj: što mora raditi">Kopiraj brief</button>
       </div>
 
       <div class="toolkit-card stat-card">
@@ -216,7 +228,7 @@ cilj: što mora raditi
       <div class="deploy-copy">
         <p class="section-kicker">Za koga je BugDoktor</p>
         <h2>Za ljude koji žele odlučiti pametnije.</h2>
-        <p>Ovdje ćeš naći vodiče, usporedbe i praktične savjete prije izrade weba, pokretanja shopa, kupnje opreme ili instalacije novog alata.</p>
+        <p>Ovdje ćeš naći vodiče, usporedbe i praktične savjete prije izrade weba, pokretanja shopa, planiranja mobilne ili web aplikacije, kupnje opreme ili instalacije novog alata.</p>
       </div>
       <div class="deploy-steps">
         <div><span>1</span> Objasni problem ili cilj</div>
@@ -227,14 +239,43 @@ cilj: što mora raditi
     </section>
 
     <section id="usluge" class="section-wrap help-section">
-      <div class="help-panel">
+      <div id="kontakt" class="help-panel">
         <p class="section-kicker">Besplatno prvo</p>
-        <h2>Savjeti su besplatni. Upit je besplatan.</h2>
-        <p>Blog je napravljen da ljudima besplatno pomogne razumjeti tehničke odluke. Ako zapneš, možeš poslati pitanje ili ukratko opisati situaciju. Ako je stvar jednostavna, dobit ćeš smjer. Ako je kompleksnije, možemo se tada dogovoriti oko konkretne pomoći.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="mailto:kontakt@bugdoktor.hr?subject=BugDoktor%20besplatan%20upit">Pošalji upit</a>
-          <a class="button secondary" href="blog.html">Prvo čitam blog</a>
-        </div>
+        <h2 id="kontakt-title">Savjeti su besplatni. Upit je besplatan.</h2>
+        <p>Savjeti su napravljeni da ljudima besplatno pomognu razumjeti tehničke odluke. Ako zapneš, možeš poslati pitanje ili ukratko opisati situaciju. Ako je stvar jednostavna, dobit ćeš smjer. Ako je kompleksnije, možemo se tada dogovoriti oko konkretne pomoći.</p>
+
+        <form class="contact-form" action="https://formbold.com/s/3AYRW" method="POST" accept-charset="UTF-8" aria-describedby="privacy-notice">
+          <div class="form-grid">
+            <label>
+              Email za odgovor
+              <input type="email" name="email" placeholder="npr. ime@email.com" autocomplete="email" maxlength="160" required>
+            </label>
+
+            <label>
+              Tema
+              <input type="text" name="subject" placeholder="npr. Web, aplikacija, PC, hardware..." maxlength="120" required>
+            </label>
+          </div>
+
+          <label>
+            Poruka
+            <textarea name="message" placeholder="Ukratko opiši što želiš riješiti, budžet ako postoji i što si već probao." rows="6" maxlength="1800" required></textarea>
+          </label>
+
+          <p id="privacy-notice" class="privacy-note">
+            Podatke iz forme BugDoktor koristi samo za odgovor na upit. Poruka se šalje preko Formbold servisa i ne koristi se za newsletter, profiliranje ni automatizirano odlučivanje. Upite čuvam najduže 12 mjeseci. Za pristup, ispravak ili brisanje podataka javi se na kontakt@bugdoktor.hr.
+          </p>
+
+          <label class="privacy-check">
+            <input type="checkbox" name="privacy_notice_read" value="yes" required>
+            Razumijem kako će se moj upit obraditi.
+          </label>
+
+          <div class="hero-actions">
+            <button class="button primary" type="submit">Pošalji poruku</button>
+            <a class="button secondary" href="blog.html">Prvo čitam savjete</a>
+          </div>
+        </form>
       </div>
     </section>
   </main>
@@ -242,11 +283,11 @@ cilj: što mora raditi
   <footer class="site-footer">
     <div>
       <strong>BugDoktor</strong>
-      <p>Tehnički savjeti za web, PC, hardware, software i pametnije digitalne odluke.</p>
+      <p>Tehnički savjeti za web, aplikacije, PC, hardware, software i pametnije digitalne odluke.</p>
     </div>
     <a href="#top">Nazad gore ↑</a>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

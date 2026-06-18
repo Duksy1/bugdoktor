@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="hr">
 <head>
   <meta charset="utf-8" />
@@ -7,16 +7,13 @@
   <meta name="description" content="Kako planirati PC konfiguraciju prema namjeni, budžetu, monitoru, procesoru, grafičkoj, RAM-u, SSD-u i napajanju." />
   <meta name="theme-color" content="#ffcb05" />
   <link rel="canonical" href="https://bugdoktor.hr/blog/slaganje-pc-a-pocinje-pitanjem.html" />
-  <link rel="alternate" type="application/rss+xml" title="BugDoktor blog" href="https://bugdoktor.hr/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="BugDoktor savjeti" href="https://bugdoktor.hr/feed.xml" />
   <link rel="manifest" href="../site.webmanifest" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Slaganje PC-a počinje pitanjem, ne grafičkom" />
   <meta property="og:description" content="Kako složiti PC prema stvarnoj namjeni i budžetu." />
   <meta property="og:url" content="https://bugdoktor.hr/blog/slaganje-pc-a-pocinje-pitanjem.html" />
   <meta name="twitter:card" content="summary" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,80..100,500..800&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
@@ -24,7 +21,7 @@
   <div class="bg-bolt bolt-one" aria-hidden="true">⚡</div>
   <header class="site-header">
     <a class="brand" href="../index.html" aria-label="BugDoktor početna"><span class="brand-mark">✚</span><span class="brand-text">BugDoktor</span></a>
-    <nav class="main-nav" aria-label="Glavna navigacija"><a href="../index.html#servis">Servis</a><a href="../index.html#savjeti">Savjeti</a><a href="../blog.html">Blog</a><a href="../index.html#alatnica">Alatnica</a><a href="../index.html#usluge">Usluge</a></nav>
+    <nav class="main-nav" aria-label="Glavna navigacija"><a href="../index.html#servis">Servis</a><a href="../blog.html">Savjeti</a><a href="../index.html#alatnica">Alatnica</a><a href="../index.html#usluge">Usluge</a></nav>
     <button class="menu-button" type="button" aria-label="Otvori navigaciju" aria-expanded="false">☰</button>
   </header>
 
@@ -33,7 +30,7 @@
       <p class="section-kicker">PC</p>
       <h1>PC po potrebi, ne po hypeu.</h1>
       <p class="lead">Dobra konfiguracija nije lista najskupljih dijelova. Dobra konfiguracija radi ono što tebi treba.</p>
-      <div class="blog-meta"><span>6 min čitanja</span><span>Ažurirano 17.06.2026.</span></div>
+      <div class="blog-meta"><span>10 min čitanja</span><span>Ažurirano 18.06.2026.</span></div>
     </section>
 
     <article class="post-shell">
@@ -67,7 +64,33 @@
           <li><strong>Kućište i hlađenje:</strong> utječu na buku, temperature i dugoročno zadovoljstvo.</li>
         </ul>
 
+        <h2>Primjeri balansa po namjeni</h2>
+        <p>Ovo nisu gotove konfiguracije, nego način razmišljanja. Cijene i modeli se mijenjaju, ali logika balansa ostaje korisna.</p>
+        <ul>
+          <li><strong>Ured, škola i svakodnevni rad:</strong> prioritet su brz SSD, dovoljno RAM-a, tišina i pouzdanost. Ne treba ti jaka grafička ako ne igraš igre i ne radiš 3D ili video.</li>
+          <li><strong>1080p gaming:</strong> gledaj dobar omjer procesora i grafičke. Nema smisla potrošiti pola budžeta na grafičku ako ostatak računala guši performanse ili ako monitor ne može pokazati više.</li>
+          <li><strong>1440p gaming:</strong> grafička postaje važnija, a napajanje, kućište i hlađenje moraju pratiti potrošnju i toplinu.</li>
+          <li><strong>Montaža videa i kreativan rad:</strong> CPU, RAM, brzi diskovi i ponekad GPU akceleracija odlučuju više nego u običnom uredskom PC-u. 32 GB RAM-a brzo postane razumna polazna točka.</li>
+          <li><strong>Programiranje:</strong> za većinu rada važni su CPU, RAM, SSD i više monitora. Ako radiš virtualne mašine, Docker ili velike projekte, RAM i disk postaju ozbiljniji faktor.</li>
+          <li><strong>Streaming:</strong> treba gledati i igru i enkodiranje. Nekad je pametnije uložiti u grafičku s dobrim enkoderom nego juriti najjači procesor.</li>
+        </ul>
+
+        <h2>Gotov PC, laptop ili slaganje po dijelovima?</h2>
+        <p>Slaganje po dijelovima daje najbolju kontrolu, ali traži provjeru kompatibilnosti i malo više truda. Gotov PC može imati smisla ako dobiješ dobru cijenu, jamstvo i uredne komponente, ali treba provjeriti napajanje, matičnu, hlađenje i kućište. Laptop ima smisla ako ti treba mobilnost, ali uz isti novac obično dobiješ slabije performanse, više buke i manje mogućnosti nadogradnje.</p>
+        <p>Ako PC stoji na stolu i treba raditi godinama, desktop je često bolja vrijednost. Ako često putuješ, radiš iz više prostora ili ti je jedan uređaj praktičniji od snage, laptop može biti bolja odluka iako nije najjači na papiru.</p>
+
         <div class="post-callout">Ne štedi na napajanju i kućištu samo zato što ne dižu FPS na papiru.</div>
+
+        <h2>Kompatibilnost koju treba provjeriti</h2>
+        <p>Prije kupnje treba provjeriti da dijelovi stvarno rade zajedno. To zvuči očito, ali puno loših konfiguracija padne na sitnicama.</p>
+        <ul>
+          <li>Podržava li matična ploča odabrani procesor i treba li BIOS update?</li>
+          <li>Stane li grafička u kućište i ima li dovoljno zraka oko nje?</li>
+          <li>Ima li napajanje dovoljno snage i prave konektore?</li>
+          <li>Podržava li ploča brzinu i kapacitet RAM-a koji kupuješ?</li>
+          <li>Imaš li dovoljno M.2/SATA mjesta za diskove sada i kasnije?</li>
+          <li>Stane li hladnjak na procesor i u kućište?</li>
+        </ul>
 
         <h2>Najčešće greške</h2>
         <p>Najčešća greška je neravnoteža. Prejaka grafička uz preslab procesor. Skup procesor za zadatke gdje je grafička važnija. Premalo RAM-a. Loš SSD. Napajanje “jer je bilo jeftino”. Kućište bez protoka zraka.</p>
@@ -91,13 +114,13 @@
           <h2>Trebaš PC konfiguraciju?</h2>
           <p>Možeš mi prvo poslati pitanje besplatno. Napiši budžet, namjenu, monitor i dijelove koje već imaš ili gledaš.</p>
           <p>Ako je pitanje jednostavno, dobit ćeš smjer. Ako treba složiti ili provjeriti cijelu konfiguraciju, možemo se tada dogovoriti.</p>
-          <div class="post-nav"><a class="button primary" href="mailto:kontakt@bugdoktor.hr?subject=PC%20konfiguracija%20-%20upit">Pošalji upit</a><a class="button secondary" href="../blog.html">Svi postovi</a></div>
+          <div class="post-nav"><a class="button primary" href="../index.html#kontakt">Pošalji upit</a><a class="button secondary" href="../blog.html">Svi savjeti</a></div>
         </div>
       </div>
     </article>
   </main>
 
-  <footer class="site-footer"><div><strong>BugDoktor</strong><p>Tehnički savjeti za web, PC, hardware, software i pametnije digitalne odluke.</p></div><a href="../blog.html">Blog ↑</a></footer>
-  <script src="../script.js"></script>
+  <footer class="site-footer"><div><strong>BugDoktor</strong><p>Tehnički savjeti za web, aplikacije, PC, hardware, software i pametnije digitalne odluke.</p></div><a href="../blog.html">Savjeti ↑</a></footer>
+  <script src="../script.js" defer></script>
 </body>
 </html>
